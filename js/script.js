@@ -51,6 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const addForm = document.querySelector('form.add');
     const addinput = addForm.querySelector('.adding__input');
     const checkBox = addForm.querySelector('[type="checkbox"]');
+    
 
     addForm.addEventListener('submit', (event) => {
         event.preventDefault();
